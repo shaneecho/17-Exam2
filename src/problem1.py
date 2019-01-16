@@ -13,8 +13,8 @@ import time
 def main():
     """ Calls the   TEST   functions in this module. """
     # run_test_problem1a()
-    run_test_problem1b()
-    # run_test_problem1c()
+    # run_test_problem1b()
+    run_test_problem1c()
     # run_test_problem1d()
 
 
@@ -395,10 +395,13 @@ def problem1c(integers):
            their respective indices (0, 1, and 2, respectively).
      """
     ###########################################################################
-    # TODO: 4. Implement and test this function.
+    # DONE: 4. Implement and test this function.
     #          Tests have been written for you (above).
     ###########################################################################
-
+    for k in range(len(integers)):
+        if integers[k] < k:
+            return integers[k]
+    return 999
 
 def run_test_problem1d():
     """ Tests the   problem1d   function. """

@@ -12,9 +12,9 @@ import time
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    # run_test_problem1a()
-    # run_test_problem1b()
-    # run_test_problem1c()
+    run_test_problem1a()
+    run_test_problem1b()
+    run_test_problem1c()
     run_test_problem1d()
 
 
@@ -532,7 +532,7 @@ def problem1d(t, sequence):
            FOR HELP if this problem's specification is not clear to you.
      """
     ###########################################################################
-    # TODO: 4. Implement and test this function.
+    # DONE: 4. Implement and test this function.
     #          Tests have been written for you (above).
     ###########################################################################
     pro = 1
